@@ -1,23 +1,23 @@
-// FUNCTION BOARDMEMBER(NAME, HOMESTATE, TRAINING){
-//   THIS.NAME = NAME
-//   THIS.HOMESTATE = HOMESTATE
-//   THIS.TRAINING = TRAINING
-//
-//   THIS.VETO = FUNCTION(){
-//     RETURN 'NO, I MUST DISAGREE'
-//   }
-//   THIS.APPROVE = FUNCTION(){
-//     RETURN 'YOU CAN DO THAT!'
-//   }
-//   THIS.DOCHARITY = FUNCTION(){
-//     RETURN "I LIKE TO HELP PEOPLE."
-//   }
-//
-//   THIS.RELEASEPRESSSTATEMENT = FUNCTION(){
-//     RETURN "YOU WILL SEE GREAT THINGS FROM SCUBER."
-//   }
-//
-//   THIS.SAYHI = FUNCTION(){
-//     RETURN `HI, MY NAME IS ${THIS.NAME}. I AM FROM ${THIS.HOMESTATE}, AND I WAS TRAINED IN ${THIS.TRAINING}.`
-//   }
-// }
+function BoardMember(name, homeState, training){
+  this.name = name
+  this.homeState = homeState
+  this.training = training
+}
+
+  this.veto = function(){
+    return 'No, I must disagree'
+  }
+  this.approve = function(){
+    return 'You can do that!'
+  }
+  this.doCharity = function(){
+    return "I like to help people."
+  }
+
+  this.releasePressStatement = function(){
+    return "You will see great things from Scuber."
+  }
+
+  this.sayHi = function(){
+    return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
+  }
